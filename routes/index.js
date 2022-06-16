@@ -13,7 +13,7 @@ const messages = [
     added: new Date(),
   },
   {
-    text: "Hello, World!",
+    text: "Wow, what a cool app. Somebody hire this man!",
     user: "Charles",
     added: new Date(),
   },
