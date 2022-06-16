@@ -33,16 +33,15 @@ router.post("/", (req, res, next) => {
     added: new Date(),
   });
 
-  res.render("index", {
-    title: "Z-Messenger",
-    messages: messages,
-    prevUserName: messageUser,
-  });
+  res.redirect("/");
 });
 
 /* GET home page. */
 router.get("/", (req, res, next) => {
-  res.render("index", { title: "Z-Messenger", messages: messages });
+  res.render("index", {
+    title: "Z-Messenger",
+    messages: messages,
+  });
 });
 
 module.exports = router;
