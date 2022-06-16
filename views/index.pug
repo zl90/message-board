@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  ul 
+  each val, index in messages
+    li= val.added + ' ' + val.user + ': ' + val.text
+  
+  form(method='post' action='/' id='input-form')
+    label(for="user-field")
+      p username 
+    input(id='user-field' name='messageUser' value=prevUserName)
+    label(for="message-field")
+      p message 
+    input(id='message-field' name='messageText')
+    button(type='submit')
+      p Send
