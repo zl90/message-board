@@ -16,7 +16,7 @@ I built this simple messaging app to get familiar with the following concepts:
 
 ### Tech used
 
-- [Heroku]([https://replit.com/](https://www.heroku.com/))
+- [Heroku](https://www.heroku.com/)
 - [npm](https://www.npmjs.com/)
 - [Express.js](http://expressjs.com/)
 - [Pug.js](https://pugjs.org/api/getting-started.html)
